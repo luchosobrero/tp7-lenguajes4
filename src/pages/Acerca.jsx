@@ -1,0 +1,1 @@
+export default function Acerca() { return <h2>Acerca de nosotros</h2>; }
