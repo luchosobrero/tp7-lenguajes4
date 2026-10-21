@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/tp7-lenguajes4/',
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    emptyOutDir: true
   }
 })
