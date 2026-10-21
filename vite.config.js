@@ -4,4 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/tp7-lenguajes4/',
+  build: {
+    outDir: 'docs'
+  }
 })
